@@ -1,5 +1,4 @@
 name: Conrad Parker
-
-
-
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
