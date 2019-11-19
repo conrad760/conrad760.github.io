@@ -1,30 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-	  <title>{{ page.title }}</title>
-	  <!-- link to main stylesheet -->
-	  <link rel="stylesheet" type="text/css" href="/css/main.css">
-  </head>
-	<body>
-		<nav>
-		<ul>
-			<!--<li><a href="/">Home</a></li>-->
-			<!--TODO-->
-	        	<!--<li><a href="/about">About</a></li>-->
-        		<!--<li><a href="/cv">CV</a></li>-->
-			<!--<li><a href="/blog">Blog</a></li>-->
-    		</ul>
-		</nav>
-			<div class="container">
+    <head>
+        <title>{{ page.title }}</title>
+        <!-- link to main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/css/main.css" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-152853588-1"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
 
-			{{ content }}
-
-			</div><!-- /.container -->
-		<footer>
-	    		<ul>
-        		<li><a href="mailto:conradlparker@gmail.com">email</a></li>
-        		<li><a href="https://github.com/conrad760">github.com/conrad760</a></li>
-			</ul>
-		</footer>
-	</body>
+            gtag('config', 'UA-152853588-1');
+        </script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <!--<li><a href="/">Home</a></li>-->
+                <!--TODO-->
+                <!--<li><a href="/about">About</a></li>-->
+                <!--<li><a href="/cv">CV</a></li>-->
+                <!--<li><a href="/blog">Blog</a></li>-->
+            </ul>
+        </nav>
+        <div class="container">
+            {{ content }}
+        </div>
+        <!-- /.container -->
+        <footer>
+            <ul>
+                <li><a href="mailto:conradlparker@gmail.com">email</a></li>
+                <li>
+                    <a href="https://github.com/conrad760"
+                        >github.com/conrad760</a
+                    >
+                </li>
+            </ul>
+        </footer>
+    </body>
 </html>
