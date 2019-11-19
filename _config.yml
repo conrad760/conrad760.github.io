@@ -4,8 +4,3 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
 google_analytics: UA-152853588-1
-
-analytics:
-  		provider: "google-universal"
-  	google:
- 	tracking_id: "UA-152853588-1"

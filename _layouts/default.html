@@ -4,9 +4,7 @@
         <title>{{ page.title }}</title>
         <!-- link to main stylesheet -->
         <link rel="stylesheet" type="text/css" href="/css/main.css" />
-        {% if jekyll.environment == 'production' %} 
-        % include analytics.html %}
-        {% endif %}
+        {% include analytics.html %}
     </head>
     <body>
         <nav>
