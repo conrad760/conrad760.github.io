@@ -20,14 +20,19 @@ const home = () => (
             </div>
         </div>
         <footer>
-            <ul>
+             <ul>
                 <li>
-                    <a href='mailto:conradlparker@gmail.com'>email</a>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:conradlparker@gmail.com">email</a></li>
+                <li>
+                    <i class="fa fa-github"></i>
+                    <a href="https://github.com/conrad760"
+                        >github.com/conrad760</a
+                    >
                 </li>
                 <li>
-                    <a href='https://github.com/conrad760'>
-                        github.com/conrad760
-                    </a>
+                    <i class="fa fa-lock"></i>
+                    <a href="./conradlparker.pgp">PGP</a>
                 </li>
             </ul>
         </footer>
