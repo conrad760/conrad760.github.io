@@ -15,7 +15,7 @@
   },
   "scripts": {
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build -b master",
+    "deploy": "gh-pages -n -s '../**/*' -d build -b test",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,6 +37,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "gh-pages": "^2.2.0"
   }
 }
