@@ -2,6 +2,10 @@ import React from 'react';
 
 const home = () => (
     <>
+ <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
         <nav>
             {/* <ul>
                 <!--<li><a href="/">Home</a></li>-->
@@ -23,16 +27,16 @@ const home = () => (
              <ul>
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:conradlparker@gmail.com">email</a></li>
+                    <a href="mailto:conradlparker@gmail.com"> email</a></li>
                 <li>
                     <i class="fa fa-github"></i>
                     <a href="https://github.com/conrad760"
-                        >github.com/conrad760</a
+                        > github.com/conrad760</a
                     >
                 </li>
                 <li>
                     <i class="fa fa-lock"></i>
-                    <a href="./conradlparker.pgp">PGP</a>
+                    <a href="./conradlparker.pgp"> PGP</a>
                 </li>
             </ul>
         </footer>
