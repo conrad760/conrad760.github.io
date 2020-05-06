@@ -4,6 +4,8 @@ A personal static website ***in react***
 ```
 $ cd react-gh-pages
 
-$ yarn start
+$ npm install 
+
+$ npm run start
 
 ```

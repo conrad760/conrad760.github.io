@@ -1,5 +1,5 @@
 {
-  "name": "react-gh-pages",
+  "name": "conrads-website",
   "version": "0.1.0",
   "private": true,
   "homepage": "http://conrad760.github.io/",
@@ -7,16 +7,14 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "acorn": "^7.1.1",
-    "minimist": "^1.2.3",
+    "@types/react-router-dom": "^5.1.5",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0",
-    "typescript": "^3.7.5"
+    "react-scripts": "^3.4.0"
   },
   "scripts": {
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -s '../**/*' -d build -b master",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -41,6 +39,11 @@
   "devDependencies": {
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^7.0.2",
+    "typescript": "^3.8.3"
   }
 }
