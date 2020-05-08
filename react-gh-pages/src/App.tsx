@@ -16,7 +16,7 @@ const App: React.FC = () => {
           <Route exact path="/">
             {home}
           </Route>
-          <Route exact path="/">
+          <Route exact path="/Calendar">
             {calendar}
           </Route>
         </Switch>
