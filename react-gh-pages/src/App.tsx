@@ -3,15 +3,11 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import home from "./pages/home";
 import calendar from "./pages/calendar";
-import Navigation from "./components/Navigation";
 
 const App: React.FC = () => {
   return (
     <div>
       <Router>
-        <div>
-          <Navigation />
-        </div>
         <Switch>
           <Route exact path="/">
             {home}
